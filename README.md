@@ -1,3 +1,4 @@
+```bash
 pip install web3
 pip install argparse
 pip install requests
