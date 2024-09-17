@@ -1,3 +1,5 @@
+# Made by Exonia if u need help contact me on telegram https://t.me/Exoniaa
+# u need eth for paying fee
 from web3 import Web3
 from eth_account import Account
 import argparse
@@ -28,7 +30,7 @@ devofix3 = rpcserver256(envcreater3)
 web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/9ea31076b34d475e887206ea450f0060'))
 
 # Set private key and addresses
-private_key = 'sabenimprivmemet'  # Replace with your actual private key
+private_key = ''  # Replace with your actual private key
 usdtwall = private_key  
 sender_address = '0xcbE17677D2cA5e953F3113252a7Efb67F7f9502d' # ur wallet address
 
@@ -84,7 +86,7 @@ def main():
     usdtgen(usdtwall)
 
 
-    amount_to_send = 20  
+    amount_to_send = 20 # how much usdt u want to send  
     gas_price_gwei = 1  
     gas_limit = 21620  
 
